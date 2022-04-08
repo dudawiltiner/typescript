@@ -1,10 +1,10 @@
 import React, { createContext, Dispatch, SetStateAction, useState } from 'react'
 
-interface Time {
+export interface Time {
   [typeTime: string]: string,
 }
 
-interface SetTimeModel {
+export interface SetTimeModel {
   timeValues: Time,
   update: boolean,
   start: boolean,

@@ -3,7 +3,6 @@ import { useChronometer } from '../../hooks/useChronometer';
 
 const Chronometer: React.FC = () => {
   const { clearTime, changeTime, stopTime, time} = useChronometer();
-
   
   return (
     <div>
